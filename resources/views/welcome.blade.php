@@ -10,7 +10,7 @@
             <div class="sliderjss">
                 @foreach ($imgslider as $item)
                     <div>
-                        <img src="{{ asset('imgz/sliders/' . $item) }}" class="w-full" alt="">
+                        <img src="{{ asset('imgz/sliders/' . $item) }}" class="w-full h-96 object-cover object-center" alt="">
                     </div>
                 @endforeach
             </div>

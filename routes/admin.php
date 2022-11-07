@@ -46,7 +46,7 @@ Route::get('cities/{city}', CityComponent::class )->name('admin.cities.show');
 
 Route::get('users', UserComponent::class )->name('admin.users.index');
 
-Route::get('users/{pet}', UserComponent::class )->name('admin.users.index');
+// Route::get('users/{pet}', UserComponent::class )->name('admin.users.index');
 
 Route::get('noticia', ShowPost::class )->name('admin.noticia.index');
 

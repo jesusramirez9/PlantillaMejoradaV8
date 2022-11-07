@@ -54,9 +54,9 @@
                                     <x-jet-dropdown-link href="{{ route('orders.index') }}">
                                         Mis ordenes
                                     </x-jet-dropdown-link>
-                                    <x-jet-dropdown-link href="{{ route('pet.index') }}">
+                                    {{-- <x-jet-dropdown-link href="{{ route('pet.index') }}">
                                         Mis mascotas
-                                    </x-jet-dropdown-link>
+                                    </x-jet-dropdown-link> --}}
 
                                     @role('admin')
                                         <x-jet-dropdown-link href="{{ route('admin.index') }}">
